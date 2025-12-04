@@ -1,0 +1,8 @@
+# --- Project Specific ---
+/example_notebooks/
+/an2dl2526c2/
+/Notebooks/-p
+/Notebooks/configs/
+/Notebooks/models/
+/Notebooks/tensorboard/
+
