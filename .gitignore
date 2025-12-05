@@ -4,3 +4,6 @@
 /Notebooks/configs/
 /Notebooks/models/
 /Notebooks/tensorboard/
+Scripts/test_goo_connection_filter.py
+Scripts/test_goo_erosion_filter.py
+Scripts/temp/
