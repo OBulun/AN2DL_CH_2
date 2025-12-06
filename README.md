@@ -5,7 +5,7 @@
 
 * **Karim    :** 
 * **Lorenzo  :** 
-* **Olgun    :** Trying to do basic transfer learning 
+* **Olgun    :** Looking into *Mask-Guided Patching*
 * **Francesco:** 
 
 ---
@@ -35,9 +35,3 @@
     - Preprocessing -- Removal of the shrek and the green goo --
 
 
-
----
-
-## 📅 Next Meeting
-* **Date & Time:** *Insert date and time.*
-* **Agenda:** *Insert main topics to discuss.*
