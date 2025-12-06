@@ -4,7 +4,7 @@ NOTE: If possible, when a step is efficiently completed (like green splashes and
 ##  Currently Working On
 *Update your individual status below.*
 
-* **Karim    :** 
+* **Karim    :** Autoaugment vs Randaugment, and initial training trials
 * **Lorenzo  :** 
 * **Olgun    :** Looking into *Mask-Guided Patching*
 * **Francesco:** Adding *Image augmentation*
