@@ -6,7 +6,7 @@ NOTE: If possible, when a step is efficiently completed (like green splashes and
 
 * **Karim    :** Autoaugment vs Randaugment, and initial training trials
 * **Lorenzo  :** 
-* **Olgun    :** Looking into *Mask-Guided Patching*
+* **Olgun    :** Looking into *Multi-Instance Learning -MIL-*
 * **Francesco:** Adding *Image augmentation*, in particular trying with RandAugment
 
 ---
