@@ -1,17 +1,17 @@
 
 NOTE: If possible, when a step is efficiently completed (like green splashes and Shreks removal), try to develop your Notework starting from that common point, to not have many different Notebooks completely different 
 
-##  Currently Working On
+## 🎯 Currently Working On
 *Update your individual status below.*
 
 * **Karim    :** Autoaugment vs Randaugment, and initial training trials
 * **Lorenzo  :** 
 * **Olgun    :** Looking into *Mask-Guided Patching*
-* **Francesco:** Adding *Image augmentation*
+* **Francesco:** Adding *Image augmentation*, in particular trying with RandAugment
 
 ---
 
-## ✅ Action Items (To-Do)
+## ⏳ Action Items (To-Do)
 *List specific unassigned tasks that need to be picked up.*
 
 - Image Augmentation
@@ -37,4 +37,10 @@ NOTE: If possible, when a step is efficiently completed (like green splashes and
 * **Milestones:** 
     - Preprocessing -- Removal of the shrek and the green goo --
 
+## 📘 Loogbook tips
+*Things to try or already implemented (in such case put a ✅)*
 
+* **Advices:**
+- 04/12: Normalisation strategies, define the the batch size and batch norm in a reasonable way according to our specific problem
+- 05/12: Inspect outleiers, we have some images that are blank after the mask is applyed (already removed), we have useful images (Shrek, already removed), we have also images wrongly labeled (How to treat them? plot the highest losses)
+- 06/12: Automated augmentation, instead of applying manually just some transformations, employ strategies which learn automatically which transformations are more effective to make the model generalize well and become more robust thanks to augmentation (we can try with: AutoAugment, RandAugment, TrivialAugment, AugMix, CTAugment)
