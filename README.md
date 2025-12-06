@@ -1,4 +1,5 @@
 
+NOTE: If possible, when a step is efficiently completed (like green splashes and Shreks removal), try to develop your Notework starting from that common point, to not have many different Notebooks completely different 
 
 ##  Currently Working On
 *Update your individual status below.*
@@ -6,7 +7,7 @@
 * **Karim    :** 
 * **Lorenzo  :** 
 * **Olgun    :** Looking into *Mask-Guided Patching*
-* **Francesco:** 
+* **Francesco:** Adding *Image augmentation*
 
 ---
 
@@ -25,6 +26,8 @@
 ### Technical details
 * *Insert links to documentation or resources. (if any)*
 
+### References
+* *Insert references to papers or website links from which you retrieve some models (for instance to do transfer learning) - To be inserted in the final part of the report*
 
 ---
 
