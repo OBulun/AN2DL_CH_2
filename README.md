@@ -5,7 +5,7 @@ NOTE: If possible, when a step is efficiently completed (like green splashes and
 *Update your individual status below.*
 
 * **Karim    :** Autoaugment vs Randaugment, and initial training trials
-* **Lorenzo  :** 
+* **Lorenzo  :**  Fine tuning a pretrained **MobileNetV3** model with a F1 score ≈ 0.4 (it's overfitting) 
 * **Olgun    :** Looking into *Multi-Instance Learning -MIL-*
 * **Francesco:** Adding *Image augmentation*, in particular trying with RandAugment
 
