@@ -10,3 +10,6 @@ Scripts/temp/
 QnA/
 submission_csvs/
 venv/
+Notebooks/.ipynb_checkpoints/
+Scripts/.ipynb_checkpoints/
+Notebooks/preprocessing_notebooks/.ipynb_checkpoints/
