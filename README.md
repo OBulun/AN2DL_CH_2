@@ -4,7 +4,7 @@ NOTE: If possible, when a step is efficiently completed (like green splashes and
 ## 🎯 Currently Working On
 *Update your individual status below.*
 
-* **Karim    :** Autoaugment vs Randaugment, and initial training trials
+* **Karim    :** Just squeezing out just a little bit more score by using Ray and Optuna + Ensembling 
 * **Lorenzo  :**  Fine tuning a pretrained **MobileNetV3** model with a F1 score ≈ 0.4 (it's overfitting) 
 * **Olgun    :** Looking into *Multi-Instance Learning -MIL-*
 * **Francesco:** Adding *Image augmentation* with RandAugment, trying to use the model DenseNet121 (specifical for biomedical applications) and trying different patching methods
