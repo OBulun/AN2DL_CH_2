@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 import os
+import random
 
 # Configuration
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -9,14 +10,18 @@ datasets_path = os.path.join(SCRIPT_DIR, os.pardir, "an2dl2526c2")
 train_data_path = os.path.join(datasets_path, "train_data")
 SOURCE_FOLDER = train_data_path
 
+idx1 = str(random.randint(0, 1400)).zfill(4)
+idx2 = str(random.randint(0, 1400)).zfill(4)
+idx3 = str(random.randint(0, 1400)).zfill(4)
+
 TARGET_FILES = [
-    "img_0229.png", 
-    "img_0223.png",
-    "img_0239.png",
-    "img_0308.png"
+    f"img_{idx1}.png", 
+    f"img_{idx2}.png",
+    f"img_0451.png",
+    f"img_0199.png",
 ]
 
-USE_EXTERNAL_MASKS = False
+USE_EXTERNAL_MASKS = True
 
 CORE_LOWER = np.array([35, 100, 50]) 
 CORE_UPPER = np.array([85, 255, 255])
@@ -99,7 +104,7 @@ def show_final_goo_test(filename, folder, num_images, current_index):
     mask_indices = smart_goo_mask > 0
     overlay[mask_indices] = red_color
     
-    alpha = 0.4 
+    alpha = 0.3
     comparison_view = cv2.addWeighted(overlay, alpha, img, 1 - alpha, 0)
 
     # Calculate final result
