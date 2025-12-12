@@ -13,3 +13,4 @@ torchvision
 torchsummary
 torchview
 tensorboard
+transformers
