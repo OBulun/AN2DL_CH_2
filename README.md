@@ -7,7 +7,7 @@ NOTE: If possible, when a step is efficiently completed (like green splashes and
 * **Karim    :** Squeezing out just a little bit more performance from the top performing model by using Ray and Optuna + Ensembling 
 * **Lorenzo  :**  Fine tuning a pretrained **MobileNetV3** model with a F1 score ≈ 0.4 (it's overfitting) 
 * **Olgun    :** Looking into *Multi-Instance Learning -MIL-*
-* **Francesco:** Adding *Image augmentation* with RandAugment, trying to use the model DenseNet121 (specifical for biomedical applications) and trying different patching methods
+* **Francesco:** Trying to use the model ResCCL with 4 channels, so giving both RGB patch and mask patch as 4th channel. Next steps: change the majority voting logic to predict the submission file with prediction based on the probabilities of each patch label, try to use augmentation at test time (so different predictions with different combination of transformations, then average the predictions)
 
 ---
 
@@ -56,3 +56,5 @@ NOTE: If possible, when a step is efficiently completed (like green splashes and
 - 10/12: Parallel paths (image + mask), we can try to follow two paths in parallel, so to learn the colors of the original image in the interested region but at the same time learn the shape that is identified by the white pixels of the mask; try to learn these two different things in parallel and after they have been efficiently learned, funds the results in order to extract the maximum informations possible
 - 11/12: Generative mask conditioning, implement a generative model conditioned on the masks, to add new samples starting from the textures of the original images and biasing the shape of such textures' regions towards the shape of the masks. In this way the dataset is enlarged with new unseen samples (similar to others present in the dataset, but not equal); different from image augmentation in which we just shift, change brightness, change colors, but at the end the sample is practically still the same but in a different configuration
 - 12/12: MixUp & CutMix, let the model learn also from intermediate situations, like 70% Luminal A and 30% HER2(+), to make the model "less sure" about a unique class to be predicted, but instead to let it learn how to behave also in uncertain situation, like deciding between two or more possible classes
+- 13/12: Contrastive pretraining, our backbone must learn both what is right and what is wrong. Contrastive Learning (CLIP, SimCLR) is a teacher of relationships. It pulls the similar close and pushes the different apart, long before a label is whispered
+
