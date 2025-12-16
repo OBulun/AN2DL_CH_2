@@ -40,6 +40,7 @@ This notebook uses the preprocessed data to train and evaluate the model.
 
 - The file `best_ckpt.pth` located in `Notebooks/models/` is the **pretrained RetCCL model** used for initialization.
 - The pretrained checkpoint is included in the submission. If the file is corrupted or missing, it can be downloaded [here](https://drive.google.com/drive/folders/1AhstAFVqtTqxeS9WlBpU41BV08LYFUnL?usp=sharing).
+- The original repo of the [RetCCL](https://github.com/Xiyue-Wang/RetCCL).
 
 
 
